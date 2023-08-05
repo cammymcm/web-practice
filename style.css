@@ -1,7 +1,18 @@
-body, h1{font-family: Arial, Helvetica, sans-serif}
+body, h1{
+    font-family: Arial, Helvetica, sans-serif
+} /* here you are making it so that the body and h1 elements have these fonts (arial if available then the others if it isn't)
+     however, you have h1 inside of the body already, so it will inherit any rules you have set for the body
+     therefore, you won't need to declare h1's font like this */
+
 a {
     text-decoration: none;
-color: black;
+    color: black;
 }
-header{color: #800000;}
-footer{color:#800000}
+
+header{
+    color: #800000;
+}
+
+footer{
+    color:#800000
+}
