@@ -9,8 +9,8 @@ a {
     color: black;
 }
 
-header{
-    color: #800000;
+header{ 
+    color: #800000; /* this doesn't change the background colour */
 }
 
 footer{
