@@ -10,9 +10,9 @@ a {
 }
 
 header{ 
-    color: #800000; /* this doesn't change the background colour */
+    background-color: #800000; /* this doesn't change the background colour */
 }
 
 footer{
-    color:#800000
+    background-color:#800000
 }
