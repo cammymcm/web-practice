@@ -1,8 +1,7 @@
 body, h1{
-    font-family: Arial, Helvetica, sans-serif
-} /* here you are making it so that the body and h1 elements have these fonts (arial if available then the others if it isn't)
-     however, you have h1 inside of the body already, so it will inherit any rules you have set for the body
-     therefore, you won't need to declare h1's font like this */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+} 
 
 a {
     text-decoration: none;
@@ -15,8 +14,10 @@ header{
     left: 0;
     right: 0;
     top: 0;
-    position: absolute;
+    position: relative;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer{
@@ -35,7 +36,7 @@ ul {
     padding: 0;
     margin: 0;
     justify-content: space-evenly;
-    flex-direction: column-reverse
+    flex-direction: row
 }
 
 ul li {
